@@ -92,6 +92,7 @@ func TestGoosGoarchCombos(t *testing.T) {
 		{"android", "arm", true},
 		{"android", "arm64", true},
 		{"darwin", "amd64", true},
+		{"darwin", "arm64", true},
 		{"dragonfly", "amd64", true},
 		{"freebsd", "386", true},
 		{"freebsd", "amd64", true},
